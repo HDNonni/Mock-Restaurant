@@ -1,0 +1,62 @@
+ * {
+    box-sizing: border-box;
+    
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  html{
+      background-color:#ffbab92e;
+      border-radius:2px;
+  }
+  
+  .heading{
+      font-style: oblique;
+      font-weight:bold;
+      text-decoration: underline;
+      color:maroon;
+      font-family: 'Courgette', cursive;
+      font-size:100px;
+  }
+  .heading:hover{
+      color: teal;
+  }
+  .headBack{
+      background-color: beige;
+      font-family: 'Handlee', cursive;
+      padding-top: 0px;
+      margin-right:5px;
+      margin-left:-15px;
+  }
+  .display-4{
+      padding-top:50px;
+  }
+  .lead2{
+      text-align: right;
+      font-size:40px;
+  }
+ 
+ 
+  header span{
+      font-family: 'Courgette', cursive;
+      text-align:center;
+      font-size: 25px;
+      padding-right: 25px;
+      padding-left: 30px;
+      background-color: maroon;
+      color: beige;
+      
+  }
+  header span:first-child{
+      padding-left:800px;
+  } 
+  header span:last-child{
+      padding-right:100px;
+      margin-right:-200px;
+  }
+  .navbar{
+      background-color: maroon;
+      color: beige; 
+      padding: 0 !important; 
+  }
+ 
