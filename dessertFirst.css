@@ -5,9 +5,13 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  html{
+  /*html{
       background-color:#ffbab92e;
       border-radius:2px;
+  }*/
+  body,html{
+      height:100%;
+      margin:0;
   }
   
   .heading{
@@ -27,6 +31,7 @@
       padding-top: 0px;
       margin-right:5px;
       margin-left:-15px;
+      margin-bottom:0;
   }
   .display-4{
       padding-top:50px;
@@ -59,4 +64,56 @@
       color: beige; 
       padding: 0 !important; 
   }
- 
+  /*the many tries for a background image AARGH*/
+ /*div .sweetStarts{
+     display:flex;
+     background: url("dessertImages/trayOfDessert.jpg");
+     background-size:cover;
+     background-repeat:no-repeat;
+     margin:0;
+ }*/
+ /*.sweetStarts.jumbotron{
+    background-image: url("dessertImages/trayOfDessert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:0;
+   }*/
+/*.sweetStarts {
+    display:flex;
+    max-width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}*/
+div > .sweetStarts{
+    width:100%;
+    margin:0;
+}
+.sweetStarts{
+    display: flex;
+   
+    /* The image used */
+    background-image: url("dessertImages/trayOfDessert.jpg");
+   
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ footer{
+     position: fixed;
+     left:0;
+     bottom:0;
+     width:100%;
+     text-align: center;
+     border:1px solid black;
+     border-radius: 5px;
+     background-color: maroon;
+     color:white;
+     
+ }
