@@ -87,6 +87,11 @@ li{
 .dropdown:hover #myDrop{
     display: block;
 }
+/*.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+}*/
 p{
     text-indent: 50px;
     margin:10px;
@@ -94,6 +99,7 @@ p{
 .chgFont{
     font-size:15px;
 }
+
 .card-columns{
     column-count: 2;
 }
@@ -114,4 +120,8 @@ p{
 .emphasize{
     font-variant:small-caps;
     font-weight: bold;
+}
+.fixCol{
+    display: none;
+    margin-top:750px;
 }
