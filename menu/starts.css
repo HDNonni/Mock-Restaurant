@@ -8,7 +8,7 @@
 
 html, body, .container{
     font-family: 'BioRhyme Expanded', serif;
-    background-color: lavenderblush;
+    background:linear-gradient(90deg, rgb(204, 0, 102),rgb(255, 179, 217),rgb(255, 230, 242));
     margin:0; 
 }
 /*using flex bow to further make the navbar responsive and aligned correctly*/
@@ -87,14 +87,14 @@ li{
     display: block;
 }
 /*class for backgound gif , may come back and try later*/
-.backImg{
+/*.backImg{
     display: flex;
     background-image:url('../dessertImages/bistro.gif');
     background-size:cover;
     background-repeat:no-repeat;
     margin:0;
 
-}
+}*/
 .container{
     display:flex; 
 }
@@ -107,7 +107,7 @@ li{
     z-index: 10;
     display: none;
     margin-left: 80px;
-    color:white;
+    color:maroon;
 }
 img{
     height: 250px;
@@ -125,4 +125,12 @@ a.tooltip:hover span{
 ul{
     list-style: none;
     font-size: 20px;
+}
+.parallax{
+    background-image: url("../dessertImages/bistoSetting.jpg");
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
