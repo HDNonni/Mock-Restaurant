@@ -16,6 +16,9 @@
       background-color:rgba(255, 186, 185, 0.706);
       background:linear-gradient(to right,rgba(250, 186, 185, 0.70),rgba(251, 210, 208, 0.50),rgba(253, 233, 232,0.25))
   }
+  .navStyle{
+    font-size:1.5rem;
+}
   
   .heading{
       font-style: oblique;
@@ -110,4 +113,11 @@ img{
 .hidePic{
     display:none
 }
-
+.posChng{
+    position: absolute;
+    left:10px;
+    z-index: 1;
+}
+.movRt{
+    margin-left:10px;
+}

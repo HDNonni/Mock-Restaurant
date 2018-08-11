@@ -23,7 +23,7 @@
             <nav class="navbar navbar-dark bg-dark">
                 <!-- Navbar content from bootstrap site-->
             </nav>
-            <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+            <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar navStyle">
                 <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap">
 
                 </a>
@@ -31,13 +31,13 @@
                 <div class="navbar-nav-scroll">
                     <ul class="navbar-nav bd-navbar-nav flex-row">
                         <li class="nav-item">
-                            <a class="nav-link " href="../dessertFirst.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+                            <a class="nav-link active" href="../dessertFirst.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../aboutPage.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
+                            <a class="nav-link " href="../aboutPage.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
+                            <a class="nav-link " href="../contact.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
                         </li>
 
                     </ul>
@@ -106,7 +106,7 @@
                         <div>
                             <li>
 
-                                <img src="../dessertImages/cheeseCake.jpeg"class='hidePic' alt="cheeseCake">
+                                <img src="../dessertImages/cheeseCake.jpeg" class='hidePic' alt="cheeseCake">
                                 <div>
                                     Velvety smooth Cheese Cake choose either NY Style or Lemon and a choice of either strawberry or blueberry toppings
                                 </div>
@@ -131,13 +131,13 @@
                                 <div>An elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso
                                     or instant espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.
                                 </div>
-                                < <ul>
+                                <ul>
                                     <li>$6 </li>
+                                </ul>
+                            </li>
+                        </div>
                     </ul>
                     </li>
-                    </div>
-                </ul>
-                </li>
                 </ul>
                 <ul>
                     <div class="name">
@@ -168,7 +168,7 @@
                         <div>
                             <li>
 
-                                <img src="../dessertImages/GFChocoCake.jpg"  class='hidePic'alt="GFChocoCake">
+                                <img src="../dessertImages/GFChocoCake.jpg" class='hidePic' alt="GFChocoCake">
                                 <div>Rich yet airy, this decadent chocolate dessert also happens to be gluten-free.
                                 </div>
 
@@ -191,7 +191,7 @@
                         <div>
                             <li>
 
-                                <img src="../dessertImages/sexInaPan.jpg" class='hidePic'alt="sexInaPan">
+                                <img src="../dessertImages/sexInaPan.jpg" class='hidePic' alt="sexInaPan">
                                 <div>A chocolate layer dessert that is gluten-free, sugar-free, and made without questionable
                                     ingredients.
                                 </div>
@@ -206,23 +206,27 @@
                 </ul>
             </div>
         </div>
-        <div class='container posPic'>
-            <div class="name clicToShow">In-Season Fruit Cobbler</div>
-            <img src="../dessertImages/fruitCob.jpg" class='hidePic'alt="fruitCob">
-            <p>
-                Always available: In-Season Fruit Cobbler (ask your server for details)
-            </p>
-            <p>
-                $6
-            </p>
-            <div class="name clicToShow">ICE CREAM!</div>
-            <img src="../dessertImages/iceCream.jpg" class='hidePic'alt="IceCream">
-            <p>
-                Always available:Several different flavors of Ice Cream!(ask your server for details)
-            </p>
-            <p>
-                $3
-            </p>
+        <div class='flex-container posPic'>
+            <div class="posChng">
+                <div class="name clicToShow">In-Season Fruit Cobbler</div>
+                <img src="../dessertImages/fruitCob.jpg" class='hidePic movRt' alt="fruitCob">
+                <p>
+                    Always available: In-Season Fruit Cobbler (ask your server for details)
+                </p>
+                <p>
+                    $6
+                </p>
+            </div>
+            <div>
+                <div class="name clicToShow">ICE CREAM!</div>
+                <img src="../dessertImages/iceCream.jpg" class='hidePic' alt="IceCream">
+                <p>
+                    Always available:Several different flavors of Ice Cream!(ask your server for details)
+                </p>
+                <p>
+                    $3
+                </p>
+            </div>
         </div>
 
 

@@ -1,0 +1,42 @@
+{
+    "BlueNibs": {
+      "name": "Blueberry Nibbles",
+      "decscription": "Plump, sweet blueberries wrapped in chocolate deliciousness",
+      "imageURL": "../dessertImages/blueberry-nibbles.jpg",
+      "imageAlt": "blueberry-nibbles",
+      "imageTitle": "Blueberry Nibbles",
+      "price": "$2"
+    },
+    "StrawBites": {
+      "name": "Strawberry Bites",
+      "imageURL": "../dessertImages/strawberry-bites.png",
+      "imageAlt": "strawberry-bites",
+      "imageTitle": "Strawberry Bites",
+      "decscription": "Strawberries topped with whipped cream and a chocolate drizzle",
+      "price": "$2"
+    },
+    "ApDips": {
+      "name": "Apple Dippers",
+      "imageURL": "../dessertImages/pb-apples.png",
+      "imageAlt": "pb-apples.",
+      "imageTitle": "Apple Dippers",
+      "decscription": "Apple slices with your choice of dipping sauce(Peanut Butter,Almond Butter, or SunflowerSeed Butter)",
+      "price": "$2"
+    },
+    "BanChunks": {
+      "name": "Banana Chunks",
+      "imageURL": "../dessertImages/banana-chunks.jpg",
+      "imageAlt": "banana-chunks",
+      "imageTitle": "Banana Chunks",
+      "decscription": "Banana Chunks topped with caramel, chocolate and chopped peanuts.",
+      "price": "$2"
+    },
+    "FunSplits": {
+      "name": "Fun Splits",
+      "imageURL": "../dessertImages/fun-splits.jpg",
+      "imageAlt": "fun-splits",
+      "imageTitle": "Fun Splits",
+      "decscription": "Sliced banana, topped with vanilla yogurt, strawberries, blueberries and granola with a drizzle of honey",
+      "price": "$6"
+    }
+}

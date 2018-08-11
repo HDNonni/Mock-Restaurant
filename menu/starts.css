@@ -8,16 +8,19 @@
 
 html, body, .container{
     font-family: 'BioRhyme Expanded', serif;
-    background:linear-gradient(90deg, rgb(204, 0, 102),rgb(255, 179, 217),rgb(255, 230, 242));
+    /*background:linear-gradient(90deg, rgb(204, 0, 102),rgb(255, 179, 217),rgb(255, 230, 242));*/
+    background: rgb(255,253,245);
+    background:linear-gradient(90deg, rgba(248,187,182, 0.808) 0%, rgba(248,177,169,1) 36%, rgba(255,245,245,1) 96%);
     margin:0; 
 }
 /*using flex bow to further make the navbar responsive and aligned correctly*/
 .flex-container{
     display:flex;
     /*flex-flow: nowrap;*/
+    
 }
 h2{
-    color:white;
+    color:maroon;
     font-weight:bold;
     font-size:35px;
     margin-left: 10px;
@@ -26,7 +29,9 @@ h2{
     display: flex;
     flex:1; 
     background-color: maroon;
-    margin:0 ; 
+    margin: 0; 
+    font-size:1.2rem;
+
     /*position: relative;*/
     
 }
@@ -49,7 +54,7 @@ h2{
     color:white;
     text-decoration: none;
     padding:20px;
-    font-size:15px;
+    font-size:1.2rem;
 }
 /*custom drop down styled with help needs to be more responsive as does whole page good on med size screen*/
 .dropdown >div> a{
@@ -96,12 +101,18 @@ li{
 
 }*/
 .container{
-    display:flex; 
+    display:flex;
+     
 }
 .name{
     font-weight: bold;
     text-decoration: underline;
+    margin-left:50px;
 }
+.name li:nth-of-type(2){
+    margin-left:150px;
+}
+
 /*using tooltip to make the description appear on hover*/
 .tooltip span{
     z-index: 10;
@@ -133,4 +144,7 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+h2{
+    text-align: center;
 }

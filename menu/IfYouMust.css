@@ -13,6 +13,7 @@
       height:100%;
       margin:0;
       font-family: 'Handlee', cursive;
+      background-color: lightgray
       /*background-color:rgba(255, 186, 185, 0.706);
       background:linear-gradient(to right,rgba(250, 186, 185, 0.70),rgba(251, 210, 208, 0.50),rgba(253, 233, 232,0.25))*/
   }
@@ -84,6 +85,15 @@
     text-align:center;
     margin-top:20px;
 }
+.parallax { 
+    
+    background-image: url("../dessertImages/saladBowl.jpg");
+    height:100% 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .backImage{
     background-image: url('../dessertImages/salad.jpeg');
     background-position: center;
@@ -91,6 +101,7 @@
     background-size: cover;
     opacity:0.2;
 }
+
 .ornament{
     text-align:center;
     
