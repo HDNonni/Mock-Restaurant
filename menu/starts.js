@@ -88,7 +88,9 @@ function startMenu(starts) {
 
 $(document).ready(function () {
     //url: have to use browser sync
-    const url = 'http://localhost:3000/Restaurant/menu/starts.json';
+    //const url = 'http://localhost:3000/Restaurant/menu/starts.json';
+    //change to a relative url so it can be viewed
+    const url = "/Restaurant/menu/starts.json";
     //ajax call to url , what kind of data type and GET method
     $.ajax(url, {
         dataType: 'json',
