@@ -12,11 +12,16 @@
   body,html{
       height:100%;
       margin:0;
+      background-color: beige;
   }
   .navStyle{
       font-size:1.5rem;
+     
   }
-  
+  .styleHeading{
+      text-align: center;
+      
+  }
   .heading{
       font-style: oblique;
       font-weight:bold;
@@ -40,7 +45,7 @@
       padding-top:50px;
   }
   .lead2{
-      text-align: right;
+      text-align: center;
       font-size:40px;
   }
  
@@ -67,47 +72,27 @@
       color: beige; 
       padding: 0 !important; 
   }
-  /*the many tries for a background image AARGH*/
- /*div .sweetStarts{
-     display:flex;
-     background: url("dessertImages/trayOfDessert.jpg");
-     background-size:cover;
-     background-repeat:no-repeat;
-     margin:0;
- }*/
- /*.sweetStarts.jumbotron{
-    background-image: url("dessertImages/trayOfDessert.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top:0;
-   }*/
-/*.sweetStarts {
-    display:flex;
-    max-width:100%;
-    height:100%;
-    margin:0;
-    padding:0;
-}*/
+ 
 div > .sweetStarts{
     width:100%;
     margin:0;
 }
 .sweetStarts{
-    display: flex;
+    /* display: flex; */
    
     /* The image used */
-    background-image: url("dessertImages/trayOfDessert.jpg");
-   
-
+    
+    /* background-image: url("https://c.pxhere.com/photos/37/b5/photo-10696.jpg!d"); */
+    background-image: url("https://texas-de-brazil-website.s3.amazonaws.com/s3_amazonaws_com/texas-de-brazil-website/menu/Desserts_7485b33d6281fd86ae5c0f9af4439236.jpg");
     /* Full height */
     height: 100%;
+    width: 100%;
 
     /* Center and scale the image nicely */
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 
-    
 }
  footer{
      position: fixed;

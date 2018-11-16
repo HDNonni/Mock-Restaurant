@@ -8,8 +8,6 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
@@ -21,71 +19,62 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="jumbotron jumbotron-fluid headBack">
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content from bootstrap site-->
+    </nav>
+    <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar navStyle  headBack">
+        <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap">
 
-            <nav class="navbar navbar-dark bg-dark">
-                <!-- Navbar content from bootstrap site-->
-            </nav>
-            <header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar navStyle">
-                <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap">
+        </a>
 
-                </a>
+        <div class="navbar-nav-scroll">
+            <ul class="navbar-nav bd-navbar-nav flex-row">
+                <li class="nav-item">
+                    <a class="nav-link active" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutPage.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="contact.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
+                </li>
 
-                <div class="navbar-nav-scroll">
-                    <ul class="navbar-nav bd-navbar-nav flex-row">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutPage.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="contact.html" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-                    <li class="nav-item dropdown">
-                        <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            Menu Options
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-                            <a class="dropdown-item active" href="menu/starts.html">Sweet Starts</a>
-                            <a class="dropdown-item" href="menu/richRewards.html">Rich Rewards</a>
-                            <a class="dropdown-item" href="menu/IfYouMust.html">If you must</a>
-                            <a class="dropdown-item" href="menu/allergyStatement.html">Allergy Statement</a>
-                        </div>
-                    </li>
-
-
-                </ul>
-
-
-            </header>
-
-
-            <!--<div class="header-marg">
-                <header>
-                    <span>Menu</span>
-                    <span>Contact</span>
-                    <span>About</span>
-                </header>
-            </div>-->
-            <h1 class="display-4">Welcome to
-                <span class="heading">Dessert First</span>
-            </h1>
-            <p class="lead lead2">Hope you have a sweet experience!</p>
+            </ul>
         </div>
 
+        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+            <li class="nav-item dropdown">
+                <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Menu Options
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+                    <a class="dropdown-item active" href="menu/starts.html">Sweet Starts</a>
+                    <a class="dropdown-item" href="menu/richRewards.html">Rich Rewards</a>
+                    <a class="dropdown-item" href="menu/IfYouMust.html">If you must</a>
+                    <a class="dropdown-item" href="menu/allergyStatement.html">Allergy Statement</a>
+                </div>
+            </li>
 
+
+        </ul>
+
+
+    </header>
+
+    <div class="container styleHeading">
+        <div class="jumbotron jumbotron-fluid headBack">
+
+            <h1 class="display-4">Welcome to</h1>
+            <p class="heading">Dessert First</p>
+
+            <p class="lead lead2">Hope you have a sweet experience!</p>
+        </div>
     </div>
     </div>
     <div class="sweetStarts">
-        <!--<img src ="dessertImages/trayOfDessert.jpg" class="img-fluid" alt = "Tray of Desserts">-->
+        <!-- <img src ="https://c.pxhere.com/photos/37/b5/photo-10696.jpg!d" class="img-fluid" alt = "Tray of Desserts"> -->
+        <!-- <img src ="dessertImages/trayOfDessert.jpg" class="img-fluid" alt = "Tray of Desserts"> -->
     </div>
     <footer>
         &reg HDNonni ; Designed and Built by Carol L with special thanks to Anthony for all his help
